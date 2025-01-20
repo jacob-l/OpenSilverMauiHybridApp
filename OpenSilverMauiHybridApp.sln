@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSilverMauiHybridApp.Browser", "OpenSilverMauiHybridApp.Browser\OpenSilverMauiHybridApp.Browser.csproj", "{18BB45FE-0069-4179-9946-B3100FF55626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSilverMauiHybridApp", "OpenSilverMauiHybridApp\OpenSilverMauiHybridApp.csproj", "{777697BF-3530-4A4D-94A5-9FFD6CD6D70F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSilverMauiHybridApp.Maui", "OpenSilverMauiHybridApp.Maui\OpenSilverMauiHybridApp.Maui.csproj", "{1E2B2010-FEB0-4050-9A95-60F3425BD6BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18BB45FE-0069-4179-9946-B3100FF55626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BB45FE-0069-4179-9946-B3100FF55626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BB45FE-0069-4179-9946-B3100FF55626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BB45FE-0069-4179-9946-B3100FF55626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777697BF-3530-4A4D-94A5-9FFD6CD6D70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777697BF-3530-4A4D-94A5-9FFD6CD6D70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777697BF-3530-4A4D-94A5-9FFD6CD6D70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777697BF-3530-4A4D-94A5-9FFD6CD6D70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2B2010-FEB0-4050-9A95-60F3425BD6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2B2010-FEB0-4050-9A95-60F3425BD6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2B2010-FEB0-4050-9A95-60F3425BD6BD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1E2B2010-FEB0-4050-9A95-60F3425BD6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2B2010-FEB0-4050-9A95-60F3425BD6BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2B2010-FEB0-4050-9A95-60F3425BD6BD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
