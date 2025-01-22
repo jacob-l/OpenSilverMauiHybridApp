@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Components.WebView.Maui;
+using Microsoft.Extensions.Logging;
 using OpenSilver.MauiHybrid.Runner;
 
 namespace OpenSilverMauiHybridApp.MauiHybrid;
@@ -13,6 +14,12 @@ public static class MauiProgram
             .ConfigureFonts(fonts =>
             {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+            })
+            .ConfigureMauiHandlers(conf =>
+            {
+#if ANDROID
+                conf.AddHandler<BlazorWebView, AndroidWebViewHandler>();
+#endif
             });
 
         builder.Services.AddScoped<IMauiHybridRunner, MauiHybridRunner>();
